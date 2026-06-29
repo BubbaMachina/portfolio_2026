@@ -26,7 +26,7 @@ import { disciplines, projects, type Discipline, type Project } from './data/pro
 import { capabilities, certifications, education, experience, recognition } from './data/resume'
 import { PROJECTS_PAGE_VARIANT } from './siteConfig'
 
-const resumeUrl = '/assets/Bobby-Samuels-Resume-June-2026.pdf'
+const resumeUrl = './assets/Bobby-Samuels-Resume-June-2026.pdf'
 
 type PathwayId = 'robotics' | 'embedded' | 'software' | 'practice'
 
@@ -36,7 +36,7 @@ const projectPathways = [
     title: 'Robotics & Mechatronics',
     short: 'Robotics',
     description: 'Arms, drones, ROS 2, control systems and mechanisms that move.',
-    image: '/assets/printed-drone.png',
+    image: './assets/printed-drone.png',
     icon: Bot,
   },
   {
@@ -44,7 +44,7 @@ const projectPathways = [
     title: 'Embedded & Electronics',
     short: 'Embedded',
     description: 'PCBs, microcontrollers, instrumentation and connected physical systems.',
-    image: '/assets/smart-outlet.png',
+    image: './assets/smart-outlet.png',
     icon: CircuitBoard,
   },
   {
@@ -52,7 +52,7 @@ const projectPathways = [
     title: 'Software & Artificial Intelligence',
     short: 'Software + AI',
     description: 'Full-stack products, algorithms, simulation and intelligent behavior.',
-    image: '/assets/fpga-board.png',
+    image: './assets/fpga-board.png',
     icon: Code2,
   },
   {
@@ -60,7 +60,7 @@ const projectPathways = [
     title: 'Engineering Practice',
     short: 'Practice',
     description: 'Energy, facilities, field assessment, laboratories and technical education.',
-    image: '/assets/energy-audit-team.png',
+    image: './assets/energy-audit-team.png',
     icon: SunMedium,
   },
 ]
@@ -162,8 +162,8 @@ function Home() {
           </div>
         </div>
         <div className="hero-visual" aria-label="Featured engineering builds">
-          <div className="hero-photo hero-photo--main"><img src="/assets/smart-outlet.png" alt="Blue ESP32 smart outlet prototype" /></div>
-          <div className="hero-photo hero-photo--secondary"><img src="/assets/printed-drone.png" alt="Custom 3D-printed quadcopter" /></div>
+          <div className="hero-photo hero-photo--main"><img src="./assets/smart-outlet.png" alt="Blue ESP32 smart outlet prototype" /></div>
+          <div className="hero-photo hero-photo--secondary"><img src="./assets/printed-drone.png" alt="Custom 3D-printed quadcopter" /></div>
           <div className="hero-note"><span>01</span><p>From circuit<br />to interface</p></div>
           <svg className="orbit-line" viewBox="0 0 600 600" aria-hidden="true"><path d="M36 490C143 579 472 576 557 327C623 134 438 19 264 61" /></svg>
         </div>
@@ -186,7 +186,7 @@ function Home() {
       </section>
 
       <section className="section profile-section">
-        <div className="profile-photo"><img src="/assets/energy-audit-gea.png" alt="Bobby with an energy audit team at the Guyana Energy Agency" /></div>
+        <div className="profile-photo"><img src="./assets/energy-audit-gea.png" alt="Bobby with an energy audit team at the Guyana Energy Agency" /></div>
         <div className="profile-copy">
           <p className="kicker">The through-line</p>
           <h2>Curiosity is my<br />operating system.</h2>
@@ -388,7 +388,7 @@ function ResumePage() {
     <Layout>
       <section className="resume-profile grid-shell" aria-labelledby="about-bobby">
         <aside className="profile-identity">
-          <div className="profile-headshot"><img src="/assets/bobby-samuels-headshot.png" alt="Bobby Samuels" /></div>
+          <div className="profile-headshot"><img src="./assets/bobby-samuels-headshot.png" alt="Bobby Samuels" /></div>
           <h1>Bobby Samuels</h1>
           <p>Electrical Engineer</p>
           <span>AI graduate student · Educator</span>

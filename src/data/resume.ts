@@ -61,7 +61,7 @@ export const recognition = [
     title: 'Roberto Rocca Scholarship',
     issuer: 'Tenaris',
     detail: 'Recognized among four engineering students in Guyana for academic performance and potential.',
-    image: '/assets/roberto-rocca-scholarship.png',
+    image: './assets/roberto-rocca-scholarship.png',
   },
   {
     title: 'AI Foundations',
